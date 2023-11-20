@@ -1,0 +1,502 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "function (function (function (function (function (function (function (function () pure external) pure external) pure external) pure external) pure external) pure external) pure external) pure external",
+          "name": "",
+          "type": "function"
+        }
+      ],
+      "name": "a",
+      "outputs": [],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b5060b88061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806326c2915f14602d575b600080fd5b603c6038366004603e565b5050565b005b60008060208385031215605057600080fd5b823567ffffffffffffffff1981168114606857600080fd5b8060601c925063ffffffff8160401c16915050925092905056fea26469706673582212206870d0da42894b5de595bc60098d4a454cc77c49d0ed12be85f5d91f0d260f2964736f6c63430008150033",
+    "sourceMap": "121:571:17:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806326c2915f14602d575b600080fd5b603c6038366004603e565b5050565b005b60008060208385031215605057600080fd5b823567ffffffffffffffff1981168114606857600080fd5b8060601c925063ffffffff8160401c16915050925092905056fea26469706673582212206870d0da42894b5de595bc60098d4a454cc77c49d0ed12be85f5d91f0d260f2964736f6c63430008150033",
+    "sourceMap": "121:571:17:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;142:548;;;;;;:::i;:::-;;;;;;14:650:19;376:6;384;437:2;425:9;416:7;412:23;408:32;405:52;;;453:1;450;443:12;405:52;477:23;;-1:-1:-1;;527:33:19;;519:42;;509:70;;575:1;572;565:12;509:70;606:3;602:2;598:12;588:22;;647:10;641:3;637:2;633:12;629:29;619:39;;;14:650;;;;;:::o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "a(function)": "26c2915f"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"function (function (function (function (function (function (function (function () pure external) pure external) pure external) pure external) pure external) pure external) pure external) pure external\",\"name\":\"\",\"type\":\"function\"}],\"name\":\"a\",\"outputs\":[],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Counter.sol\":\"MyCon\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/Counter.sol\":{\"keccak256\":\"0x5fc735c5101e2cd627dafed838d55a10b555972a1d651b760db95035d44c13ae\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://f9fa1ab6fd6dacf2bb1fe007fec235d534c38b3f7a6f2ec888972baa0a09b461\",\"dweb:/ipfs/QmaLoyiTWr18wVE9cHeT4pLFLNAAub26jBauFK9VF8kpYw\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.21+commit.d9974bed"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "function (function (function (function (function (function (function (function () pure external) pure external) pure external) pure external) pure external) pure external) pure external) pure external",
+              "name": "",
+              "type": "function"
+            }
+          ],
+          "stateMutability": "pure",
+          "type": "function",
+          "name": "a"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/Counter.sol": "MyCon"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/Counter.sol": {
+        "keccak256": "0x5fc735c5101e2cd627dafed838d55a10b555972a1d651b760db95035d44c13ae",
+        "urls": [
+          "bzz-raw://f9fa1ab6fd6dacf2bb1fe007fec235d534c38b3f7a6f2ec888972baa0a09b461",
+          "dweb:/ipfs/QmaLoyiTWr18wVE9cHeT4pLFLNAAub26jBauFK9VF8kpYw"
+        ],
+        "license": "UNLICENSED"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/Counter.sol",
+    "id": 40573,
+    "exportedSymbols": {
+      "MyCon": [
+        40572
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "39:654:17",
+    "nodes": [
+      {
+        "id": 40535,
+        "nodeType": "PragmaDirective",
+        "src": "39:24:17",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".13"
+        ]
+      },
+      {
+        "id": 40572,
+        "nodeType": "ContractDefinition",
+        "src": "121:571:17",
+        "nodes": [
+          {
+            "id": 40571,
+            "nodeType": "FunctionDefinition",
+            "src": "142:548:17",
+            "nodes": [],
+            "body": {
+              "id": 40570,
+              "nodeType": "Block",
+              "src": "688:2:17",
+              "nodes": [],
+              "statements": []
+            },
+            "functionSelector": "26c2915f",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "a",
+            "nameLocation": "151:1:17",
+            "parameters": {
+              "id": 40568,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 40567,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 40571,
+                  "src": "162:513:17",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$__$returns$__$_$returns$__$_$returns$__$_$returns$__$_$returns$__$_$returns$__$_$returns$__$_$returns$__$",
+                    "typeString": "function (function (function (function (function (function (function (function () pure external) pure external) pure external) pure external) pure external) pure external) pure external) pure external"
+                  },
+                  "typeName": {
+                    "id": 40566,
+                    "nodeType": "FunctionTypeName",
+                    "parameterTypes": {
+                      "id": 40564,
+                      "nodeType": "ParameterList",
+                      "parameters": [
+                        {
+                          "constant": false,
+                          "id": 40563,
+                          "mutability": "mutable",
+                          "name": "",
+                          "nameLocation": "-1:-1:-1",
+                          "nodeType": "VariableDeclaration",
+                          "scope": 40566,
+                          "src": "184:472:17",
+                          "stateVariable": false,
+                          "storageLocation": "default",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$__$returns$__$_$returns$__$_$returns$__$_$returns$__$_$returns$__$_$returns$__$_$returns$__$",
+                            "typeString": "function (function (function (function (function (function (function () pure external) pure external) pure external) pure external) pure external) pure external) pure external"
+                          },
+                          "typeName": {
+                            "id": 40562,
+                            "nodeType": "FunctionTypeName",
+                            "parameterTypes": {
+                              "id": 40560,
+                              "nodeType": "ParameterList",
+                              "parameters": [
+                                {
+                                  "constant": false,
+                                  "id": 40559,
+                                  "mutability": "mutable",
+                                  "name": "",
+                                  "nameLocation": "-1:-1:-1",
+                                  "nodeType": "VariableDeclaration",
+                                  "scope": 40562,
+                                  "src": "210:423:17",
+                                  "stateVariable": false,
+                                  "storageLocation": "default",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$__$returns$__$_$returns$__$_$returns$__$_$returns$__$_$returns$__$_$returns$__$",
+                                    "typeString": "function (function (function (function (function (function () pure external) pure external) pure external) pure external) pure external) pure external"
+                                  },
+                                  "typeName": {
+                                    "id": 40558,
+                                    "nodeType": "FunctionTypeName",
+                                    "parameterTypes": {
+                                      "id": 40556,
+                                      "nodeType": "ParameterList",
+                                      "parameters": [
+                                        {
+                                          "constant": false,
+                                          "id": 40555,
+                                          "mutability": "mutable",
+                                          "name": "",
+                                          "nameLocation": "-1:-1:-1",
+                                          "nodeType": "VariableDeclaration",
+                                          "scope": 40558,
+                                          "src": "240:366:17",
+                                          "stateVariable": false,
+                                          "storageLocation": "default",
+                                          "typeDescriptions": {
+                                            "typeIdentifier": "t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$__$returns$__$_$returns$__$_$returns$__$_$returns$__$_$returns$__$",
+                                            "typeString": "function (function (function (function (function () pure external) pure external) pure external) pure external) pure external"
+                                          },
+                                          "typeName": {
+                                            "id": 40554,
+                                            "nodeType": "FunctionTypeName",
+                                            "parameterTypes": {
+                                              "id": 40552,
+                                              "nodeType": "ParameterList",
+                                              "parameters": [
+                                                {
+                                                  "constant": false,
+                                                  "id": 40551,
+                                                  "mutability": "mutable",
+                                                  "name": "",
+                                                  "nameLocation": "-1:-1:-1",
+                                                  "nodeType": "VariableDeclaration",
+                                                  "scope": 40554,
+                                                  "src": "274:301:17",
+                                                  "stateVariable": false,
+                                                  "storageLocation": "default",
+                                                  "typeDescriptions": {
+                                                    "typeIdentifier": "t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$__$returns$__$_$returns$__$_$returns$__$_$returns$__$",
+                                                    "typeString": "function (function (function (function () pure external) pure external) pure external) pure external"
+                                                  },
+                                                  "typeName": {
+                                                    "id": 40550,
+                                                    "nodeType": "FunctionTypeName",
+                                                    "parameterTypes": {
+                                                      "id": 40548,
+                                                      "nodeType": "ParameterList",
+                                                      "parameters": [
+                                                        {
+                                                          "constant": false,
+                                                          "id": 40547,
+                                                          "mutability": "mutable",
+                                                          "name": "",
+                                                          "nameLocation": "-1:-1:-1",
+                                                          "nodeType": "VariableDeclaration",
+                                                          "scope": 40550,
+                                                          "src": "312:228:17",
+                                                          "stateVariable": false,
+                                                          "storageLocation": "default",
+                                                          "typeDescriptions": {
+                                                            "typeIdentifier": "t_function_external_pure$_t_function_external_pure$_t_function_external_pure$__$returns$__$_$returns$__$_$returns$__$",
+                                                            "typeString": "function (function (function () pure external) pure external) pure external"
+                                                          },
+                                                          "typeName": {
+                                                            "id": 40546,
+                                                            "nodeType": "FunctionTypeName",
+                                                            "parameterTypes": {
+                                                              "id": 40544,
+                                                              "nodeType": "ParameterList",
+                                                              "parameters": [
+                                                                {
+                                                                  "constant": false,
+                                                                  "id": 40543,
+                                                                  "mutability": "mutable",
+                                                                  "name": "",
+                                                                  "nameLocation": "-1:-1:-1",
+                                                                  "nodeType": "VariableDeclaration",
+                                                                  "scope": 40546,
+                                                                  "src": "354:147:17",
+                                                                  "stateVariable": false,
+                                                                  "storageLocation": "default",
+                                                                  "typeDescriptions": {
+                                                                    "typeIdentifier": "t_function_external_pure$_t_function_external_pure$__$returns$__$_$returns$__$",
+                                                                    "typeString": "function (function () pure external) pure external"
+                                                                  },
+                                                                  "typeName": {
+                                                                    "id": 40542,
+                                                                    "nodeType": "FunctionTypeName",
+                                                                    "parameterTypes": {
+                                                                      "id": 40540,
+                                                                      "nodeType": "ParameterList",
+                                                                      "parameters": [
+                                                                        {
+                                                                          "constant": false,
+                                                                          "id": 40539,
+                                                                          "mutability": "mutable",
+                                                                          "name": "",
+                                                                          "nameLocation": "-1:-1:-1",
+                                                                          "nodeType": "VariableDeclaration",
+                                                                          "scope": 40542,
+                                                                          "src": "400:58:17",
+                                                                          "stateVariable": false,
+                                                                          "storageLocation": "default",
+                                                                          "typeDescriptions": {
+                                                                            "typeIdentifier": "t_function_external_pure$__$returns$__$",
+                                                                            "typeString": "function () pure external"
+                                                                          },
+                                                                          "typeName": {
+                                                                            "id": 40538,
+                                                                            "nodeType": "FunctionTypeName",
+                                                                            "parameterTypes": {
+                                                                              "id": 40536,
+                                                                              "nodeType": "ParameterList",
+                                                                              "parameters": [],
+                                                                              "src": "408:2:17"
+                                                                            },
+                                                                            "returnParameterTypes": {
+                                                                              "id": 40537,
+                                                                              "nodeType": "ParameterList",
+                                                                              "parameters": [],
+                                                                              "src": "457:0:17"
+                                                                            },
+                                                                            "src": "400:58:17",
+                                                                            "stateMutability": "pure",
+                                                                            "typeDescriptions": {
+                                                                              "typeIdentifier": "t_function_external_pure$__$returns$__$",
+                                                                              "typeString": "function () pure external"
+                                                                            },
+                                                                            "visibility": "external"
+                                                                          },
+                                                                          "visibility": "internal"
+                                                                        }
+                                                                      ],
+                                                                      "src": "362:96:17"
+                                                                    },
+                                                                    "returnParameterTypes": {
+                                                                      "id": 40541,
+                                                                      "nodeType": "ParameterList",
+                                                                      "parameters": [],
+                                                                      "src": "500:0:17"
+                                                                    },
+                                                                    "src": "354:147:17",
+                                                                    "stateMutability": "pure",
+                                                                    "typeDescriptions": {
+                                                                      "typeIdentifier": "t_function_external_pure$_t_function_external_pure$__$returns$__$_$returns$__$",
+                                                                      "typeString": "function (function () pure external) pure external"
+                                                                    },
+                                                                    "visibility": "external"
+                                                                  },
+                                                                  "visibility": "internal"
+                                                                }
+                                                              ],
+                                                              "src": "320:181:17"
+                                                            },
+                                                            "returnParameterTypes": {
+                                                              "id": 40545,
+                                                              "nodeType": "ParameterList",
+                                                              "parameters": [],
+                                                              "src": "539:0:17"
+                                                            },
+                                                            "src": "312:228:17",
+                                                            "stateMutability": "pure",
+                                                            "typeDescriptions": {
+                                                              "typeIdentifier": "t_function_external_pure$_t_function_external_pure$_t_function_external_pure$__$returns$__$_$returns$__$_$returns$__$",
+                                                              "typeString": "function (function (function () pure external) pure external) pure external"
+                                                            },
+                                                            "visibility": "external"
+                                                          },
+                                                          "visibility": "internal"
+                                                        }
+                                                      ],
+                                                      "src": "282:258:17"
+                                                    },
+                                                    "returnParameterTypes": {
+                                                      "id": 40549,
+                                                      "nodeType": "ParameterList",
+                                                      "parameters": [],
+                                                      "src": "574:0:17"
+                                                    },
+                                                    "src": "274:301:17",
+                                                    "stateMutability": "pure",
+                                                    "typeDescriptions": {
+                                                      "typeIdentifier": "t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$__$returns$__$_$returns$__$_$returns$__$_$returns$__$",
+                                                      "typeString": "function (function (function (function () pure external) pure external) pure external) pure external"
+                                                    },
+                                                    "visibility": "external"
+                                                  },
+                                                  "visibility": "internal"
+                                                }
+                                              ],
+                                              "src": "248:327:17"
+                                            },
+                                            "returnParameterTypes": {
+                                              "id": 40553,
+                                              "nodeType": "ParameterList",
+                                              "parameters": [],
+                                              "src": "605:0:17"
+                                            },
+                                            "src": "240:366:17",
+                                            "stateMutability": "pure",
+                                            "typeDescriptions": {
+                                              "typeIdentifier": "t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$__$returns$__$_$returns$__$_$returns$__$_$returns$__$_$returns$__$",
+                                              "typeString": "function (function (function (function (function () pure external) pure external) pure external) pure external) pure external"
+                                            },
+                                            "visibility": "external"
+                                          },
+                                          "visibility": "internal"
+                                        }
+                                      ],
+                                      "src": "218:388:17"
+                                    },
+                                    "returnParameterTypes": {
+                                      "id": 40557,
+                                      "nodeType": "ParameterList",
+                                      "parameters": [],
+                                      "src": "632:0:17"
+                                    },
+                                    "src": "210:423:17",
+                                    "stateMutability": "pure",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$__$returns$__$_$returns$__$_$returns$__$_$returns$__$_$returns$__$_$returns$__$",
+                                      "typeString": "function (function (function (function (function (function () pure external) pure external) pure external) pure external) pure external) pure external"
+                                    },
+                                    "visibility": "external"
+                                  },
+                                  "visibility": "internal"
+                                }
+                              ],
+                              "src": "192:441:17"
+                            },
+                            "returnParameterTypes": {
+                              "id": 40561,
+                              "nodeType": "ParameterList",
+                              "parameters": [],
+                              "src": "655:0:17"
+                            },
+                            "src": "184:472:17",
+                            "stateMutability": "pure",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$__$returns$__$_$returns$__$_$returns$__$_$returns$__$_$returns$__$_$returns$__$_$returns$__$",
+                              "typeString": "function (function (function (function (function (function (function () pure external) pure external) pure external) pure external) pure external) pure external) pure external"
+                            },
+                            "visibility": "external"
+                          },
+                          "visibility": "internal"
+                        }
+                      ],
+                      "src": "170:486:17"
+                    },
+                    "returnParameterTypes": {
+                      "id": 40565,
+                      "nodeType": "ParameterList",
+                      "parameters": [],
+                      "src": "674:0:17"
+                    },
+                    "src": "162:513:17",
+                    "stateMutability": "pure",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$_t_function_external_pure$__$returns$__$_$returns$__$_$returns$__$_$returns$__$_$returns$__$_$returns$__$_$returns$__$_$returns$__$",
+                      "typeString": "function (function (function (function (function (function (function (function () pure external) pure external) pure external) pure external) pure external) pure external) pure external) pure external"
+                    },
+                    "visibility": "external"
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "152:523:17"
+            },
+            "returnParameters": {
+              "id": 40569,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "688:0:17"
+            },
+            "scope": 40572,
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "MyCon",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          40572
+        ],
+        "name": "MyCon",
+        "nameLocation": "130:5:17",
+        "scope": 40573,
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 17
+}

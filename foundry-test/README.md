@@ -1,3 +1,10 @@
+## Task
+
+1. Make a foundry template
+2. Make a fork of mainnet from CLI 
+3. Query mainnet using CLU to retrieve a property
+
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
